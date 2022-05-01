@@ -1,0 +1,27 @@
+.login_div1{
+    /* background-color: violet; */
+    width: 40vw;
+   display: flex;
+   /* align-items: center; */
+   flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.widthforlogin{
+    width: 40vw;
+}
+
+@media only screen and (max-width:954px){
+    .login_div1{
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+    .widthforlogin{
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,66 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.w-100{
+    z-index: 9999999999 !important;
+}
+.header{
+   color: black !important;
+    background-color: cyan;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  */
+    /* background: linear-gradient(to right, #EDDE5D, #F09819); */
+    
+
+}
+.service_hm_link:hover{
+    cursor: pointer;
+    color: rgb(59, 59, 59) !important;
+}
+
+.header li{
+    color: white;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right: 20px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+}
+.header .d-flex  li{
+    padding: 10px;
+}
+.logo_png{
+    --stroke-pos: 1px;
+    --stroke-neg: -1px;
+    --stroke-color: rgba(0, 255, 0, 0.2);
+    filter: drop-shadow(var(--stroke-pos) 0 0 var(--stroke-color)) 
+      drop-shadow(var(--stroke-neg) 0 var(--stroke-color))
+      drop-shadow(0 var(--stroke-pos) 0 var(--stroke-color))
+      drop-shadow(0 var(--stroke-neg) 0 var(--stroke-color))
+      drop-shadow(var(--stroke-pos) var(--stroke-pos) 0 var(--stroke-color)) 
+      drop-shadow(var(--stroke-pos) var(--stroke-neg) 0 var(--stroke-color))
+      drop-shadow(var(--stroke-neg) var(--stroke-pos) 0 var(--stroke-color))
+      drop-shadow(var(--stroke-neg) var(--stroke-neg) 0 var(--stroke-color));  
+}
+/* ------------------------------- media query ------------------------------ */
+@media only screen and (max-width:400px) {
+    .header ul div li img{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    a{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width:460px){
+    .fa-question-circle{
+        font-size: 20px !important;
+    }
+
+}

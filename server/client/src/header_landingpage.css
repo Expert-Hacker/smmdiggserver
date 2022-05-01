@@ -1,0 +1,83 @@
+.dropMenu{
+     transition: 0.4s ease-in-out;
+     background: #673AB7;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    position: absolute;
+    width: 205px;
+    top: 80px;
+    padding: 10px 20px 0px 20px;
+    border-bottom-left-radius: 5px;
+    /* right: 0px; */
+    display: none;
+    z-index: 999999999;
+}
+.notification{
+    z-index: 9999999999999999999999999999 !important;
+}
+.dropMenu p .drpLink{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.fa-bell1{
+    background-color: rgb(56, 53, 56);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 36px;
+}
+.fa-bell1:hover{
+    cursor: pointer;
+}
+.toggleclass{
+    transition: 0.4s ease-in-out;
+    display: inline-block;
+}
+.hamburgerMwnu:hover{
+cursor: pointer;
+rotate: 45deg;
+}
+.myordertable{
+    background-color: #D2E5FA;;
+}
+.navlinkHover:hover{
+    background-color: #8a3370;
+}
+.canvasmy{
+  z-index: 999999999999999999;
+  background: #005C97;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+@media only screen and (max-width:400px) {
+    .dropMenu{
+        top: 60px;
+        right: 0px;
+    }
+    .fa-user, .fa-bell{
+        padding: 7px;
+    }
+    .balance{
+        font-size: 12px ;
+    }
+    .balanceNo{
+        font-size: 13px;
+    }
+}
+.fa-sync{
+    margin-top: 5px;
+}
+@media only screen and (max-width:900px){
+    .dropMenu{
+        /* top: 60px; */
+        right: 0px;
+    }
+    .notification{
+        z-index: 9999999999999999999999999999 !important;
+    }
+}

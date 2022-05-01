@@ -1,0 +1,12 @@
+.fa-search:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:933px) {
+    .top_ad_user{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+    
+}

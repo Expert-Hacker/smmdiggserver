@@ -1,0 +1,222 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+.und-design{
+  background: linear-gradient(360deg, rgb(0, 253, 253) 8px, transparent 20px) 0 1.1em
+}
+.main-home{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.caption1{
+  font-size: 6rem;
+  font-weight: 600;
+  /* line-height: px; */
+}
+.login-code{
+  /* border: dotted red; */
+  padding: 45px !important;
+}
+.login-name{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(16, 16, 114);
+  margin-bottom: 20px !important;
+}
+.signupbtn{
+  background-color:rgb(123, 247, 247) ;
+  padding: 6px 17px;
+  display:inline-block;
+  border: 1px solid rgb(0, 0, 0) ;
+  border-radius: 23px;
+  font-size: 1rem;
+}
+
+.signupbtn:hover{
+  cursor: pointer;
+  background-color:rgb(85, 255, 255) ;
+  transition: 0.3s ease-in-out;
+}
+.offers-section{
+  
+  display: flex;
+  gap: 17px;
+  justify-content:space-around;
+  
+}
+.offers-child{
+  /* background-color: rgb(253, 252, 252); */
+  display: flex;
+  gap: 12px;
+  padding: 20px 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.caption-3{
+  text-align: center;
+ 
+}
+.caption-5{
+  color: black;
+  font-weight: 600;
+}
+.margin-150px{
+  padding: 0px 150px;
+}
+.caption-4{
+  text-align: center;
+  line-height: 60px !important;
+}
+.social-icons{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.child-social{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.caption-5{
+  font-size: 1.2rem;
+}
+.social-link:hover{
+  transition: all 0.4s ease;
+  background-color: rgb(238, 237, 237) !important;
+}
+.social-link{
+  text-decoration: none;
+  
+}
+.revealcls{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.countcls{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.countcls.activescroll{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.revealcls.activescroll{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.counter-div{
+  background-color: rgb(253, 243, 253);
+  display: flex;
+  justify-content: space-around;
+
+}
+.counter{
+  font-size: 30px;
+  font-weight: 600;
+}
+.incrremrnt{
+  font-size: 20px;
+}
+.counter-child{
+  padding: 30px 0px;
+}
+.caption-6{
+  font-size: 15px;
+}
+
+    
+       
+
+
+/* ------------------------------- media Query ------------------------------ */
+@media only screen and (max-width:811px){
+ .caption-6{
+   font-size: 12px;
+ }
+}
+
+@media only screen and (min-width:415px) and (max-width:512px){
+  
+}
+@media only screen and (max-width:444px){
+  .counter{
+    font-size: 26px;
+  }
+  .caption-5{
+    font-size: 16px;
+  }
+  .caption-6{
+    font-size: 10px;
+  }
+  
+}
+@media only screen and (max-width:445px){
+  .margin-150px{
+    padding: 0px 10px !important;
+  }
+}
+
+@media only screen and (max-width:675px){
+  .margin-150px{
+    padding: 0px 10px !important;
+  }
+  
+}
+@media only screen and (max-width:407px){
+  .caption1{
+    font-size: 1rem !important;
+  }
+  .images-home{
+    height: 80px;
+    width: 80px;
+  }
+ 
+}
+@media only screen and (max-width:372px){
+  .caption1{
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width:424px){
+  .caption1{
+    font-size: 4.8rem !important;
+  }
+  .login-code{
+    padding: 20px !important;
+  }
+  .social-icon{
+    height: 34px;
+  }
+}
+@media only screen and (max-width:520px){
+  .caption1{
+    /* font-size: 5rem; */
+  }
+ 
+}
+
+@media only screen and (max-width:809px) {
+  .main-home{
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .offers-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .offers-child{
+    /* width: 60vw; */
+  }
+}

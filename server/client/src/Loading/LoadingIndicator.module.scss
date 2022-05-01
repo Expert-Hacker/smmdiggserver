@@ -1,0 +1,29 @@
+
+  .wrapper {
+    min-height: 100px;
+    position: relative;
+    pointer-events: none;
+   
+  }
+
+.loaderContainer{
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.767);
+  bottom: 0;
+  content: '';
+  cursor: wait;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: -15px;
+  left: 0;
+  color: white;
+  z-index: 10;
+  }
+  // background-color: rgba(255, 255, 255, 0.767);
+
+  

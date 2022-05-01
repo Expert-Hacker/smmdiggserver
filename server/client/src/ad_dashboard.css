@@ -1,0 +1,49 @@
+
+
+.ad_cards1{
+    height: auto;
+    width: auto;
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin:10px 20px 10px 20px !important
+}
+.ad_cards2{
+    height: auto;
+    width: auto;
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin:10px 20px 10px 20px !important
+}
+.ad_cards3{
+    height: auto;
+    width: auto;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin:10px 20px 10px 20px !important
+}
+.fa-sync-alt:hover{
+    cursor: pointer;
+}
+.pay_load{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trans_btn{
+    background-color: transparent;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.trans_btn1{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

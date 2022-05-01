@@ -1,0 +1,140 @@
+.errorText{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    padding: 3px 10px 3px 10px;
+
+}
+.icons{
+    font-size: 24px !important;
+    margin-top: 20px;
+}
+.passwodHelp{
+  
+    /* font-size: 10px; */
+}
+.passwodHelp:hover{
+    cursor: pointer;
+}
+.passwodHelpDiv{
+    /* width: 300px; */
+    position: absolute;
+    left: auto;
+    z-index: 99999999;
+    display: none;   
+    border-radius: 6px;
+}
+.whatsappNum{
+    position: absolute;
+    left: auto;
+    z-index: 99999999;
+    display: none;   
+    border-radius: 6px;
+}
+.passwodHelpDiv p{
+    font-size: 13px;
+    padding: 6px 6px 0px 9px;
+}
+.TogglepasswodHelpDiv{
+display: inline;
+}
+
+.TogglewhatsappNum{
+    padding: 6px 6px 6px 6px;
+    display: inline;
+}
+.termsncond{
+    font-size: 15px;
+    display: inline-flex;
+    margin-right: 0px;
+}
+.tncGroup{
+    display: flex;
+}
+.signupdivwidth{
+    width: 600px;
+}
+.tnctext{
+    display: contents;
+}
+.termstxt{
+display:inline;
+}
+
+/* //second tym desin */
+.signup_div1{
+    /* width: 40vw; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (max-width:954px){
+    .signup_div1{
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (max-width:840px){
+    .signupdivwidth{
+        width: 400px !important;
+       
+    }
+    
+}
+@media only screen and (max-width:430px){
+    .signupdivwidth{
+        width: 390px !important;
+       
+    }
+    
+}
+@media only screen and (max-width:410px){
+    .signupdivwidth{
+        width: 350px !important;
+       
+    }
+    
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .passwodHelpDiv p{
+        font-size: 11px;
+        
+    }
+    .passwodHelpDiv{
+        width: 300px;
+        position: absolute;
+        right: auto;
+        z-index: 99999999;
+        display: none;   
+    }
+    .TogglepasswodHelpDiv{
+        display: inline;
+        }
+        .whatsappNum{
+            width: 300px;
+            position: absolute;
+            right: auto;
+            z-index: 99999999;
+            display: none;
+        }
+        .TogglewhatsappNum{
+            display: inline;
+        }
+        .whatsappNum p{
+            font-size: 11px;
+            padding: 6px 6px 6px 6px;
+            margin: 0px;
+        }
+        .img_create_account{
+            height: 65px;
+        }
+    
+}

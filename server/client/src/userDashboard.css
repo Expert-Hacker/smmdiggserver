@@ -1,0 +1,44 @@
+.shadow{
+  
+    box-shadow: 0px 7px 7px 3px rgba(50, 50, 50, 0.2);
+}
+.overflow{
+    height: auto;
+    overflow: auto;
+}
+.overflow{
+    /* font-family: 'Montserrat',sans-serif */
+}
+.newWViewmsg{
+    position: absolute;
+    right: 20px;
+}
+.dashboardnames{
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+
+.dashboard-header11{
+    background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.dashboard-header1{
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.whatsappChatDiv{
+    position: fixed;
+   left: 30px;
+   bottom: 40px;
+   z-index: 99999999999999999;
+}
+@media only screen and (max-width:550px){
+    .whatsappChatDiv img{
+        height:65px ;
+        width:65px ;
+    }
+}
